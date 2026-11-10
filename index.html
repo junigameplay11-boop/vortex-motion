@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090510">
+  <title>VORTEX MOTION | Edição profissional</title>
+  <style>
+    :root{--bg:#08050e;--panel:#12091d;--purple:#a100ff;--violet:#6d19d2;--text:#f7f1ff;--muted:#c6b8d5}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif}
+    a{color:inherit;text-decoration:none}
+    .wrap{width:min(1100px,92%);margin:auto}
+    header{position:sticky;top:0;z-index:5;background:#090510eF;border-bottom:1px solid #8b28d455;backdrop-filter:blur(12px)}
+    nav{min-height:70px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .brand{font-weight:900;letter-spacing:2px;color:#fff}.brand span{color:#c45cff}
+    .links{display:flex;gap:22px;font-size:13px;color:var(--muted)}
+    .links a:hover{color:#d9a3ff}
+    .hero{min-height:570px;display:grid;place-items:center;text-align:center;position:relative;overflow:hidden;padding:75px 0}
+    .hero:before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 75% 50%,#7100bd66,transparent 48%),radial-gradient(ellipse at 20% 75%,#30005c55,transparent 45%);pointer-events:none}
+    .hero-inner{position:relative;max-width:800px}
+    .mark{width:100px;height:100px;margin:0 auto 20px;border:3px solid #bd58ff;transform:rotate(45deg);display:grid;place-items:center;box-shadow:0 0 18px #a100ff, inset 0 0 18px #a100ff55}
+    .mark b{font-size:65px;transform:rotate(-45deg);text-shadow:0 0 12px #bd58ff}
+    h1{font-size:clamp(38px,8vw,76px);line-height:.95;margin:20px 0 12px;letter-spacing:2px;text-shadow:0 0 20px #9200ff88}
+    h1 span,.accent{color:#c45cff}
+    .tag{letter-spacing:4px;color:#cbb5df;font-size:12px}
+    .intro{font-size:clamp(17px,3vw,22px);color:var(--muted);margin:28px auto;max-width:620px;line-height:1.5}
+    .btn{display:inline-block;padding:14px 24px;border:1px solid #d28aff;border-radius:999px;background:linear-gradient(100deg,#6900b7,#a100ff);font-weight:800;font-size:13px;box-shadow:0 0 18px #9d00ff88;transition:.2s}
+    .btn:hover{transform:translateY(-3px);box-shadow:0 0 28px #bd58ff}
+    section{padding:72px 0;scroll-margin-top:75px}
+    .section-title{text-align:center;font-size:clamp(27px,5vw,40px);margin:0 0 12px}
+    .sub{text-align:center;color:var(--muted);margin:0 auto 34px;max-width:600px;line-height:1.5}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .card{background:linear-gradient(145deg,#1b0c2a,#0d0814);border:1px solid #8e32c955;border-radius:16px;padding:24px}
+    .card h3{margin:8px 0;color:#e7c6ff}.card p{color:var(--muted);line-height:1.5;margin-bottom:0}
+    .icon{font-size:28px}
+    .work{min-height:130px;display:grid;place-items:center;text-align:center;background:linear-gradient(135deg,#160821,#35005b 55%,#090510);border:1px solid #9b36dc66;border-radius:16px;padding:20px;color:#e7c6ff}
+    .about{display:grid;grid-template-columns:1.2fr .8fr;gap:24px;align-items:center}
+    .about-mark{font-size:120px;text-align:center;color:#c45cff;text-shadow:0 0 25px #9d00ff}
+    .contact{text-align:center;background:radial-gradient(ellipse at center,#39005d66,transparent 65%)}
+    footer{border-top:1px solid #8b28d455;padding:24px 0;color:var(--muted);font-size:12px;text-align:center}
+    @media(max-width:700px){.links{gap:10px;font-size:11px}.grid{grid-template-columns:1fr}.about{grid-template-columns:1fr}.about-mark{font-size:80px}.hero{min-height:520px}}
+    @media(max-width:390px){.links{gap:7px;font-size:10px}.brand{font-size:12px}}
+  </style>
+</head>
+<body>
+<header><nav class="wrap">
+  <a class="brand" href="#inicio">VORTEX <span>MOTION</span></a>
+  <div class="links"><a href="#inicio">INÍCIO</a><a href="#portfolio">PORTFÓLIO</a><a href="#servicos">SERVIÇOS</a><a href="#sobre">SOBRE</a><a href="#contato">CONTATO</a></div>
+</nav></header>
+<main>
+  <section class="hero" id="inicio"><div class="hero-inner wrap">
+    <div class="mark"><b>V</b></div>
+    <h1>VORTEX <span>MOTION</span></h1>
+    <div class="tag">YOUR VISION. OUR MOTION.</div>
+    <p class="intro"><strong class="accent">EDIÇÃO PROFISSIONAL</strong><br>Vídeos dinâmicos e criativos para destacar seu conteúdo.</p>
+    <a class="btn" href="#servicos">CONHEÇA NOSSOS SERVIÇOS</a>
+  </div></section>
+  <section id="servicos"><div class="wrap">
+    <h2 class="section-title">NOSSOS <span class="accent">SERVIÇOS</span></h2>
+    <p class="sub">Edição pensada para dar mais ritmo, personalidade e impacto aos seus vídeos.</p>
+    <div class="grid">
+      <article class="card"><div class="icon">🎬</div><h3>YouTube</h3><p>Edição de vídeos, cortes, legendas e ritmo para seu canal.</p></article>
+      <article class="card"><div class="icon">📱</div><h3>TikTok e Reels</h3><p>Vídeos curtos, dinâmicos e preparados para redes sociais.</p></article>
+      <article class="card"><div class="icon">🎮</div><h3>Conteúdo gamer</h3><p>Montagens, melhores momentos e efeitos para gameplay.</p></article>
+    </div>
+  </div></section>
+  <section id="portfolio"><div class="wrap">
+    <h2 class="section-title">NOSSO <span class="accent">PORTFÓLIO</span></h2>
+    <p class="sub">Em breve: uma seleção de projetos e exemplos de edição.</p>
+    <div class="grid"><div class="work">SEU VÍDEO 01</div><div class="work">SEU VÍDEO 02</div><div class="work">SEU VÍDEO 03</div></div>
+  </div></section>
+  <section id="sobre"><div class="wrap about">
+    <div><h2 class="section-title" style="text-align:left">SOBRE <span class="accent">A VORTEX</span></h2><p class="sub" style="text-align:left;margin:0">A VORTEX MOTION é uma marca criativa focada em edição de vídeos. Nosso objetivo é transformar ideias em conteúdos com identidade, energia e qualidade visual.</p></div>
+    <div class="about-mark">V</div>
+  </div></section>
+  <section class="contact" id="contato"><div class="wrap">
+    <h2 class="section-title">VAMOS CRIAR <span class="accent">JUNTOS?</span></h2>
+    <p class="sub">Entre em contato para conversar sobre seu projeto.</p>
+    <a class="btn" href="mailto:SEUEMAIL@EXEMPLO.COM?subject=Or%C3%A7amento%20Vortex%20Motion">FALE COM A VORTEX</a>
+  </div></section>
+</main>
+<footer>© 2026 VORTEX MOTION · YOUR VISION. OUR MOTION.</footer>
+</body></html>
